@@ -2,10 +2,9 @@
 
 # Exercício sobre herança
 
-```
 Implementar um conjunto de classes que representem os tipos de conta de um banco. O
 diagrama UML abaixo representa as classes do sistema.
-```
+
 ## Descrição das classes
 ## Conta
 - O atributo saldo indica quanto o cliente possui na conta.
