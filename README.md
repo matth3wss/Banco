@@ -1,5 +1,67 @@
-# Conta
+## Universidade Federal da Fronteira Sul
 
-Exercício sobre herança
-Implementar um conjunto de classes que representem os tipos de conta de um banco. O 
+## Ciência da Computação
+
+```
+Programação I
+```
+# Exercício sobre herança
+
+```
+Implementar um conjunto de classes que representem os tipos de conta de um banco. O
 diagrama UML abaixo representa as classes do sistema.
+```
+## Descrição das classes
+
+## Conta
+
+```
+O atributo saldo indica quanto o cliente possui na conta.
+O método depositar() adiciona um valor ao saldo da conta.
+O método sacar() retira valor da conta do cliente, se houver saldo disponível; o método
+retorna true se conseguiu sacar ou false se não conseguiu.
+O método resumoExtrato() mostra o nome do cliente e o saldo atual da conta.
+O método fazManutencao() não executa ação alguma nessa classe, devendo ser sobrescrito
+nas subclasses.
+A classe deve ter também um construtor.
+```
+## ContaEspecial
+
+```
+O atributo limite indica um crédito extra que o cliente pode utilizar no momento do saque.
+Portanto, o método sacar() deve ser sobrescrito a fim de incorporar esta característica.
+```
+
+## Universidade Federal da Fronteira Sul
+
+## Ciência da Computação
+
+```
+Programação I
+```
+O atributo **taxaManutencao** é um valor em R$ que o banco cobra do cliente durante cada
+manutenção. O método **fazManutencao()** da classe **ContaEspecial** deve descontar do saldo
+do cliente o valor estipulado na propriedade **taxaManutencao**.
+O método **resumoExtrato()** da classe **ContaEspecial** deve imprimir, além do nome do
+cliente e saldo atual, o saldo extra disponibilizado pela propriedade limite e o valor da taxa
+de manutenção.
+A classe deve ter um construtor, conforme o diagrama.
+
+## Investimento
+
+O atributo **taxaRendimento** indica uma porcentagem que o cliente irá ganhar sobre seu saldo
+durante cada manutenção.
+O método **fazManutenção()** da classe **Investimento** deve aplicar o rendimento ao saldo da
+conta.
+O método **resumoExtrato()** da classe **Investimento** deve imprimir, além do saldo atual e
+nome do cliente, qual é a porcentagem de rendimento.
+A classe deve ter um construtor, conforme diagrama.
+
+## Classe de Teste
+
+Crie uma classe para instanciar e manipular 1 exemplo de objeto do tipo Conta, um do tipo
+ContaEspecial e um do tipo Investimento.
+
+* Crie os gets e sets que forem necessários em seus testes.
+
+
