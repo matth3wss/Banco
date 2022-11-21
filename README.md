@@ -37,9 +37,8 @@ manutenção.
 
 # Exercício sobre herança - Continuação
 
-```
 Com base no exercício anterior, realizar as seguintes alterações:
-```
+
 - Tornar a classe **Conta** abstrata.
 - Tornar o método **fazManutencao** abstrato.
 - Criar uma classe **Cliente** (atributos nome e CPF) e realizar uma associação bidirecional entre **Cliente** e **Conta**.
