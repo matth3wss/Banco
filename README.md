@@ -35,7 +35,7 @@ manutenção.
 
 * Crie os gets e sets que forem necessários em seus testes.
 
-# Exercício sobre herança - Continuação
+# Associação, Agregação, Composição - Continuação exercício herença
 
 Com base no exercício anterior, realizar as seguintes alterações:
 
