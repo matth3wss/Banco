@@ -7,19 +7,13 @@ Implementar um conjunto de classes que representem os tipos de conta de um banco
 diagrama UML abaixo representa as classes do sistema.
 ```
 ## Descrição das classes
-
 ## Conta
-
-```
-O atributo saldo indica quanto o cliente possui na conta.
-O método depositar() adiciona um valor ao saldo da conta.
-O método sacar() retira valor da conta do cliente, se houver saldo disponível; o método
-retorna true se conseguiu sacar ou false se não conseguiu.
-O método resumoExtrato() mostra o nome do cliente e o saldo atual da conta.
-O método fazManutencao() não executa ação alguma nessa classe, devendo ser sobrescrito
-nas subclasses.
-A classe deve ter também um construtor.
-```
+- O atributo saldo indica quanto o cliente possui na conta.
+- O método depositar() adiciona um valor ao saldo da conta.
+- O método sacar() retira valor da conta do cliente, se houver saldo disponível; o método retorna true se conseguiu sacar ou false se não conseguiu.
+- O método resumoExtrato() mostra o nome do cliente e o saldo atual da conta.
+- O método fazManutencao() não executa ação alguma nessa classe, devendo ser sobrescrito nas subclasses.
+- A classe deve ter também um construtor.
 ## ContaEspecial
 
 - O atributo limite indica um crédito extra que o cliente pode utilizar no momento do saque.
@@ -38,7 +32,7 @@ manutenção.
 
 ## Classe de Teste
 
--Crie uma classe para instanciar e manipular 1 exemplo de objeto do tipo Conta, um do tipo ContaEspecial e um do tipo Investimento.
+- Crie uma classe para instanciar e manipular 1 exemplo de objeto do tipo Conta, um do tipo ContaEspecial e um do tipo Investimento.
 
 * Crie os gets e sets que forem necessários em seus testes.
 
@@ -56,13 +50,11 @@ Com base no exercício anterior, realizar as seguintes alterações:
 
 ## Classe de Teste
 
-Instanciar 2 **Clientes**.
-
-Criar uma **ContaEspecial** e uma conta de **Investimento** e associar ao mesmo cliente.
-Realizar algumas operações para testar os métodos. Chamar o método **extrato()** para
-visualizar a lista de movimentações.
-
-Adicionar os clientes à **CarteiraPrime** e listá-los.
+- Instanciar 2 **Clientes**.
+- Criar uma **ContaEspecial** e uma conta de **Investimento** e associar ao mesmo cliente.
+- Realizar algumas operações para testar os métodos.
+- Chamar o método **extrato()** para visualizar a lista de movimentações.
+- Adicionar os clientes à **CarteiraPrime** e listá-los.
 
 
 
