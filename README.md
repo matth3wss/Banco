@@ -1,10 +1,5 @@
 ## Universidade Federal da Fronteira Sul
 
-## Ciência da Computação
-
-```
-Programação I
-```
 # Exercício sobre herança
 
 ```
@@ -63,5 +58,36 @@ Crie uma classe para instanciar e manipular 1 exemplo de objeto do tipo Conta, u
 ContaEspecial e um do tipo Investimento.
 
 * Crie os gets e sets que forem necessários em seus testes.
+
+# Exercício sobre herança - Continuação
+
+```
+Com base no exercício anterior, realizar as seguintes alterações:
+```
+- Tornar a classe **Conta** abstrata.
+- Tornar o método **fazManutencao** abstrato.
+- Criar uma classe **Cliente** (atributos nome e CPF) e realizar uma associação bidirecional
+    entre **Cliente** e **Conta**.
+- Criar uma classe **CarteiraPrime** , a qual será uma agregação de **Clientes** (pode
+    utilizar ArrayList). A classe deve conter um método **adicionar()** e um **listar()** que
+    mostra todos os clientes prime.
+- Criar uma Classe **Movimentacao** que registra a data (string), o valor e o tipo de
+    operação (crédito ou débito). Cada conta deve conter uma composição de
+    Movimentações (pode utilizar ArrayList). A cada operação de depósito, saque ou
+    manutenção, um novo objeto **Movimentacao** deve ser adicionado a esta lista.
+- Adicionar um método **extrato()** à classe **Conta** , o qual apresenta a lista de todas as
+    movimentações
+    
+## Classe de Teste
+
+Instanciar 2 **Clientes**.
+
+Criar uma **ContaEspecial** e uma conta de **Investimento** e associar ao mesmo cliente.
+Realizar algumas operações para testar os métodos. Chamar o método **extrato()** para
+visualizar a lista de movimentações.
+
+Adicionar os clientes à **CarteiraPrime** e listá-los.
+
+
 
 
