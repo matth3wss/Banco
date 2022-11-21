@@ -22,17 +22,13 @@ A classe deve ter também um construtor.
 ```
 ## ContaEspecial
 
-```
-O atributo limite indica um crédito extra que o cliente pode utilizar no momento do saque.
-Portanto, o método sacar() deve ser sobrescrito a fim de incorporar esta característica.
-```
-
+- O atributo limite indica um crédito extra que o cliente pode utilizar no momento do saque.
+- Portanto, o método sacar() deve ser sobrescrito a fim de incorporar esta característica.
 - O atributo **taxaManutencao** é um valor em R$ que o banco cobra do cliente durante cada
 manutenção. 
 - O método **fazManutencao()** da classe **ContaEspecial** deve descontar do saldo do cliente o valor estipulado na propriedade **taxaManutencao**.
 - O método **resumoExtrato()** da classe **ContaEspecial** deve imprimir, além do nome do cliente e saldo atual, o saldo extra disponibilizado pela propriedade limite e o valor da taxa de manutenção.
 - A classe deve ter um construtor, conforme o diagrama.
-
 ## Investimento
 
 - O atributo **taxaRendimento** indica uma porcentagem que o cliente irá ganhar sobre seu saldo durante cada manutenção.
